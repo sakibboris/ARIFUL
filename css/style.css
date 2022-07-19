@@ -72,9 +72,9 @@
 }
 
 .box {
-    width: 15%;
+    width: 16.66%;
     float: left;
-    margin: 10px 9px;
+    padding: 10px 9px;
 }
 
 .box .text {
@@ -87,7 +87,8 @@
     display: block;
     font-size: 15px;
     width: 100%;
-    background: greenyellow;
+    background: rgb(28, 170, 0);
+    color: white;
     padding: 5px;
     text-align: center;
     text-transform: uppercase;
@@ -109,14 +110,14 @@
 /* Track */
 
 ::-webkit-scrollbar-track {
-    background: #C9151C;
+    background: rgb(71, 240, 71);
 }
 
 
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
-    background: #f4a3e6;
+    background: #a3f4c2;
 }
 
 
@@ -189,7 +190,8 @@
 .modal-content {
     margin: auto;
     display: block;
-    width: 80%;
+    width: auto;
+    height: 100%;
     max-width: 700px;
 }
 
